@@ -31,7 +31,7 @@
                         <span class="form__error">Недопустимый формат номера</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="text" name="url"  placeholder="Ваш сайт" pattern="(https?:\/\/)?((www)?(\.)?)[a-z1-9~_\-\.]+\.[a-z1-9]{1,9}[aA-zZ0-9~_\-\./?=&]+" required/>
+                        <input class="form__input" type="text" name="url"  placeholder="Ваш сайт" pattern="^(https?:\/\/)?(www.)?((((25[0-5])|(2[0-4]\d)|(1\d\d)|(\d\d)|(\d))\.){3}((25[0-5])|(2[0-4]\d)|(1\d\d)|(\d\d)|(\d))|([a-zA-Z0-9-]{1,20}\.[a-z]{1}[a-z1-9]{1,20}))(:\d{4})?(\/[aA-zZ0-9~_\-\.]+)*(\/)?(\?[aA-zZ0-9~_\-\.?=&]*)?#?" required/>
                         <span class="form__error">URL в формате: http://mysite.ru</span>
                     </div>
                     <button class="form__button" type="text">Отправить</button>
